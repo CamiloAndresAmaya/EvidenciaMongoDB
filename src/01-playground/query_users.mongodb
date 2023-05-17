@@ -1,0 +1,14 @@
+// declarar base de datos a usar
+
+use('Login')
+
+//Insercion de un documento
+let Andres={
+    first_name:"Camilo Andres",
+    last_name:"Amaya Castaneda",
+    age:"17 años"
+}
+
+db.Usuarios.insertOne(Andres);
+
+//Contruir base datos veterinaria
